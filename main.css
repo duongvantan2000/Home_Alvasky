@@ -100,10 +100,80 @@ html {
     margin-top: 0px;
     margin-right: -170px;
 }
-.slider{
 
+.slider  .text-content-slider{
+    text-align: center;
+    /* left: 50%; */
+    
 }
-
+/* .slider .list-item {
+    margin-left: 100px;
+} */
+.slider .slider-icon-left {
+    top: 100px;
+    left: 50px;
+    /* margin-right: -100px; */
+    text-align: center;
+}
+.slider .slider-icon-right {
+    top: 100px;
+    /* text-align: center; */
+    /* margin-left: 50px; */
+}
+.slider .list-staff .staff {
+    padding-left: 80px;
+}
+.slider .list-staff .staff-text {
+    position: absolute;
+    background-color: #fff;
+    margin: auto;
+    width: 220px;
+    left: 0;
+    right: 0;
+    padding: 17px 18px;
+    box-shadow: 0 4px 4px rgb(0, 0, 0);
+    bottom: -60px;
+    text-align: center;
+}
+.slider .slider-staff {
+    /* margin-top: 300px; */
+}
 .footer{
-
+    margin-top: 100px;
+}
+.footer .start-footer {
+    height: 180px;
+    background-color: red;
+}
+.footer .start-footer {
+    /* width: 80%; */
+    text-align: center;
+    height: 180px;
+    padding-top: 30px;
+    color: #fff;
+}
+.footer .start-footer .help {
+    left: -400px;
+    margin-right: 50px;
+}
+.footer .start-footer .contact button{
+    width: 20%;
+    margin: 35px 0 0 0;
+    border-radius: 8%;
+    border-style: none;
+}
+.footer .body-footer {
+    margin-top: 50px;
+    /* text-align: center; */
+}
+.footer .body-footer .locations-footer-dash {
+    margin-left: 60px;
+    height: 2px;
+    width: 50px;
+    background-color: red;
+}
+.footer .body-footer .locations-footer-details {
+    width: 150px;
+    margin-left: 130px;
+    margin-top: -10px;
 }
